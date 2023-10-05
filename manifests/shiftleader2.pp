@@ -6,4 +6,5 @@ class role::shiftleader2 {
   include ::profile::shiftleader::cert
   include ::shiftleader::api
   include ::shiftleader::web
+  include ::shiftleader::worker::dns
 }
