@@ -5,4 +5,5 @@ class role::shiftleader2 {
   include ::profile::webserver
   include ::profile::shiftleader::cert
   include ::shiftleader::api
+  include ::shiftleader::web
 }
