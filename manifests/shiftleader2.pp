@@ -3,5 +3,6 @@ class role::shiftleader2 {
   include ::profile::baseconfig
 
   include ::profile::webserver
+  include ::profile::shiftleader::cert
   include ::shiftleader::api
 }
