@@ -3,4 +3,5 @@ class role::dhcp {
   include ::profile::baseconfig
 
   include ::profile::dhcp
+  include ::profile::tftp
 }
