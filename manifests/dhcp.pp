@@ -6,4 +6,5 @@ class role::dhcp {
   include ::profile::tftp
 
   include ::shiftleader::worker::dhcp
+  include ::shiftleader::worker::tftp
 }
